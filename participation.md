@@ -35,6 +35,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Other: I assisted a couple of my peers in class with setting up and doing their first commit to GitHub, including Elizabeth P and Mikaela N
 	+ Total 5 Points
 - Week 2
+	+ Attended class Tuesday
+	+ Answered a question in class
+	+ Assessed in class
+	+ Attended class Thursday
+	+ I met Asher Khattak on Thursday
+	+ Total 5 Points
 - Week 3
 - Week 4
 - Week 5

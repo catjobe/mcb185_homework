@@ -42,6 +42,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ I met Asher Khattak on Thursday
 	+ Total 5 Points
 - Week 3
+	+ Attended class Tuesday
+	+ Introduced myself to Jewel
+	+ Attended class Thursday
+	+ Volunteered in the front of class
+	+ Other: Worked through Unit 1 problems with Rokhshid R in class
+	+ Total 5 Points
 - Week 4
 - Week 5
 - Week 6

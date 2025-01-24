@@ -2,7 +2,8 @@
 
 import math
 
-def char_to_prob(c): return 1 / (10 ** ((ord(c) - 33) / 10))
+def char_to_prob(c): 
+	return 1 / (10 ** ((ord(c) - 33) / 10))
 print(char_to_prob('I'))
 print(char_to_prob('A'))
 

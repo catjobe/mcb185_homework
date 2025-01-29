@@ -49,6 +49,8 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Other: Worked through Unit 1 problems with Rokhshid R in class
 	+ Total 5 Points
 - Week 4
+	+ Attended class Tuesday
+	+ Assessed in class
 - Week 5
 - Week 6
 - Week 7

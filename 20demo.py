@@ -140,7 +140,7 @@ print(euler(20))
 # A function that determines if a number is prime
 
 def is_prime(n):
-	for i in (2, n // 2):
+	for i in range(2, n // 2):
 		if n % i == 0: return False
 	return True
 print(is_prime(7)) # prime

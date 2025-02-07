@@ -56,6 +56,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Asked a question in class
 	+ Total 5 Points
 - Week 5
+	+ Attended class Tuesday
+	+ Volunteered at the front of class
+	+ Attended a Coderie (2/4 - 9:00 pm)
+	+ Attended class Thursday
+	+ Answered a question in class
+	+ Total 5 Points
 - Week 6
 - Week 7
 - Week 8

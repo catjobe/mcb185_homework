@@ -63,6 +63,12 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Answered a question in class
 	+ Total 5 Points
 - Week 6
+	+ Attended class Tuesday
+	+ Attended class Thursday
+	+ Answered a question in class
+	+ Other: Talked through Unit 3 HW problems with Rokhshid R in class
+	+ Attended a Coderie (2/13 - 10:00 pm)
+	+ Total 5 Points
 - Week 7
 - Week 8
 - Week 9

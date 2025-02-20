@@ -13,10 +13,10 @@ print('Number of values =', length)
 
 # The minimum and maximum values in nums
 
-mins = int(nums[0])
-maxs = int(nums[0])
+mins = float(nums[0])
+maxs = float(nums[0])
 for num in nums:
-	num = int(num)
+	num = float(num)
 	if num < mins: mins = num
 	if num > maxs: maxs = num
 print('Min =', mins, 'Max =', maxs)
@@ -26,7 +26,7 @@ print('Min =', mins, 'Max =', maxs)
 def means(nums):
 	total = 0
 	for num in nums: 
-		intn = int(num)
+		intn = float(num)
 		total += intn
 	return total / len(nums)
 print('Mean =', means(nums))
@@ -35,7 +35,7 @@ tot = 0
 means = means(nums)
 sums = 0
 for num in nums:
-	intn = int(num)
+	intn = float(num)
 	parts = (intn - means) ** 2
 	sums += parts
 sd = math.sqrt(sums / (length - 1))
@@ -43,7 +43,7 @@ print('Standard Deviation =', sd)
 
 # Median value
 
-nums = list(map(int, nums))
+nums = list(map(float, nums))
 nums.sort()
 half = int(length/2)
 if int(length) % 2 == 0: 
@@ -54,6 +54,6 @@ if int(length) % 2 == 0:
 	median = (up + do) / 2
 	print('Median =', median)
 else: 
-	median = int(nums[half])
+	median = nums[half]
 	print('Median =', median)
 

@@ -77,5 +77,11 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Assessed in class
 	+ Total 5 Points
 - Week 8
+	+ Attended class Tuesday
+	+ Answered a question in class
+	+ Attended class Thursday
+	+ Hosted a Coderie (2/27 10:00 - 11:00 pm)
+	+ Other: Attended office hours (2/28) to ask questions about unit 4 homework problems
+	+ Total 5 Points
 - Week 9
 - Week 10

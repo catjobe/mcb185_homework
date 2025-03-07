@@ -8,9 +8,7 @@ prot = int(sys.argv[2])
 
 def protein_finder(seq, direction):
 	codon = 3 
-	step_size = 6 * codon
 	ids = 0
-	revseq = seq[::-1]
 	
 	for k in range(3):
 		for i in range(k, len(seq) - codon + 1, codon):
@@ -28,6 +26,7 @@ def protein_finder(seq, direction):
 						break
 					
 					if codon_seq in ['TTT', 'TTC']: protein.append('F')
+					elif codon_seq in ['GGT', 'GGC', 'GGA', 'GGG']: protein.append('G')
 					elif codon_seq in ['TTA', 'TTG', 'CTT', 'CTC', 'CTA', 'CTG']: protein.append('L')
 					elif codon_seq in ['TCT', 'TCC', 'TCA', 'TCG', 'AGT', 'AGC']: protein.append('S')
 					elif codon_seq in ['TAT', 'TAC']: protein.append('Y')
@@ -56,8 +55,7 @@ for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	defwords = defline.split()
 	name = defwords[0]
 	codon = 3 
-	step_size = 6 * codon
 	ids = 0
-	revseq = seq[::-1]
+	revseq = sequence.revcomp(seq)
 	protein_finder(seq, 'normal')
 	protein_finder(revseq, 'reverse')

@@ -84,4 +84,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Other: Attended office hours (2/28) to ask questions about unit 4 homework problems
 	+ Total 5 Points
 - Week 9
+	+ Attended class Tuesday
+	+ Asked a question in class
+	+ Other: Attended Office Hours to get feedback on the logic of my code for unit 4 homework
+	+ Attended class Thursday
+	+ Attended a Coderie (3/6 8:00 - 10:00 pm)
+	+ Total 5 Points
 - Week 10

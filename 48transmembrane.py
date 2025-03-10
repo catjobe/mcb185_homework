@@ -4,10 +4,9 @@ import sequence
 import sys
 import mcb185
 
-def hydro(seq, l, ht, start, end):
-	seqs = seq[start:end+1]
-	for i in range(0, len(seqs) - l + 1):
-		s = seqs[i:i+l]
+def hydro(seq, l, ht):
+	for i in range(0, len(seq) - l + 1):
+		s = seq[i:i+l]
 		score = 0
 		if 'P' in s:
 			continue
@@ -33,13 +32,10 @@ def hydro(seq, l, ht, start, end):
 			elif aa == 'Y': score -= 1.30
 		kd = score / l
 		if kd >= ht: 
-			return s, kd
-			break
+			return True
+	return False
 
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
-	signal_peptide = hydro(seq, 8, 2.5, 0, 30)
-	transmembrane_region = hydro(seq, 11, 2.0, 31, len(seq))
-	if signal_peptide and transmembrane_region is not None:
-		print(defline)
+	if hydro(seq[:30], 8, 2.5) and hydro(seq[30:], 11, 2.0): print(defline)
 	
 		

@@ -32,6 +32,5 @@ with open(colorfile) as fp:
 			mins = distance
 			color = colors
 	print('Closest Official Color Name =', color)
-fp.close()
 
 

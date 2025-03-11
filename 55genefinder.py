@@ -19,19 +19,15 @@ def protein_finder(seq, defline, min_orf=100, strand='+'):
 			for j in range(i+3, len(seq) - 2, 3):
 				codon2 = seq[j:j+3]
 				if codon2 in ['TAA', 'TAG', 'TGA']:
-					stop = j + 3
+					stop = j + 2
+					if stop - start >= (min_orf * 3 + 3): 
+						if strand == '+':
+							print(defline, start, stop, strand)
+						else: 
+							print(defline, len(seq) - stop, len(seq) - start, strand)
 					break
-			if stop is None: 
-				i += 3
-				continue 
-			i = stop + 1
-			if stop - start >= (min_orf * 3 + 3): 
-				if strand == '+':
-					print(defline, start, stop, strand)
-				else: 
-					print(defline, len(seq) - stop, len(seq) - start, strand)
-
-						
+			i = j+3
+				
 for defline, seq in mcb185.read_fasta(sys.argv[1]):
 	defwords = defline.split()
 	name = defwords[0]

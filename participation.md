@@ -91,3 +91,10 @@ more than one point per category. There is a maximum of 5 points each week.
 	+ Attended a Coderie (3/6 8:00 - 10:00 pm)
 	+ Total 5 Points
 - Week 10
+	+ Attended class Tuesday
+	+ Asked a question in class
+	+ Hosted a Coderie (3/12 10:00 - 11:00 pm)
+	+ Attended a Coderie (3/13 3:30 - 5:00 pm)
+	+ Other: Attended Office Hours to get help and feedback on unit 6 homework
+	+ Total 5 Points
+	
